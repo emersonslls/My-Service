@@ -6,7 +6,6 @@ import styles from "./Header.module.css";
 
 import NewLogo from "../Assets/Name Azul.png";
 
-
 function Header() {
 
     return (
