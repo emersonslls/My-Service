@@ -189,7 +189,6 @@
 
 /*--APPS--*/
 
-
 .Apps {
     position: relative;
 
@@ -703,6 +702,8 @@
 }
 
 .Escolha h3 {
+    color: var(--dark);
+
     font-family: "Poppins";
     font-size: 24px;
     font-weight: 600;
@@ -824,8 +825,12 @@
 .Grupo img {
     width: 739px;
     height: 503px;
-    top: 174px;
-    left: 956px;
+    top: 1px;
+    left: 1px;
+
+    position: absolute;
+
+    z-index: 9;
 
 }
 
@@ -855,7 +860,6 @@
     border-radius: 45px;
     background: #0A3DC2;
 
-    z-index: -99;
 }
 
 /*--PORQUE?--*/
@@ -980,8 +984,8 @@
     position: absolute;
 
     width: 580px;
-    height: 485px;
-    top: 140px;
+    height: 435px;
+    top: 200px;
     left: 200px;
     gap: 7.4px;
 }
@@ -1033,6 +1037,20 @@
 
     position: absolute;
 
+}
+
+.quadrado5 {
+    width: 256px;
+    height: 21px;
+    top: 400px;
+    left: 890px;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+
+    position: absolute;
+    background: var(--blue);
+
+    z-index: 9;
 }
 
 /*--MEMBROS--*/
@@ -1346,4 +1364,1180 @@
     left: 13px;
 
     position: absolute;
+}
+
+/*RESPONSIVIDADE CELULAR*/
+
+
+/*RESPONSIVIDADE NOTEBOOK*/
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .Inicio {
+        height: 1100px;
+
+        position: relative;
+    }
+
+    .Text1 {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+
+        width: 580px;
+        height: 300px;
+        top: 240px;
+        left: 100px;
+
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    .Text1 h1 {
+        top: 0px;
+        left: 0px;
+
+        width: 575px;
+        height: 200px;
+
+        position: absolute;
+
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 47px;
+        letter-spacing: 0em;
+    }
+
+    .Text1 h4 {
+        top: 210px;
+        left: 0px;
+
+        width: 535px;
+        height: 85px;
+
+        position: absolute;
+
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+        /* 29.91px */
+    }
+
+    .Conheca {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+
+        width: 565px;
+        height: 335px;
+        top: 640px;
+        left: 100px;
+
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    .Conheca h1 {
+        top: 0px;
+        left: 0px;
+
+        width: 560px;
+        height: 150px;
+
+        position: absolute;
+
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 47px;
+        letter-spacing: 0em;
+    }
+
+    .Conheca h4 {
+        top: 160px;
+        left: 0px;
+
+        width: 455px;
+        height: 125px;
+
+        position: absolute;
+
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+        /* 29.91px */
+    }
+
+    .Conheca button {
+        display: inline-flex;
+        padding: 8.684px;
+        justify-content: center;
+        align-items: center;
+        gap: 5.789px;
+
+        position: absolute;
+        width: 119.37px;
+        height: 44.37px;
+        top: 285px;
+        left: 0px;
+
+        font-size: 17.798px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .Apps {
+        position: relative;
+        height: 1024px;
+    }
+
+    .quadrado1 {
+        width: 236px;
+        height: 21px;
+        top: 502px;
+        left: 540px;
+
+        position: absolute;
+
+        z-index: 99;
+    }
+
+    .AppUser {
+        width: 100%;
+        height: 512px;
+        flex-shrink: 0;
+
+        position: absolute;
+    }
+
+    .User {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+
+        width: 475px;
+        height: 435px;
+        top: 35px;
+        left: 100px;
+
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    .User h1 {
+        top: 0px;
+        left: 0px;
+
+        width: 450px;
+        height: 225px;
+
+        position: absolute;
+
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 45.2px;
+        letter-spacing: 0em;
+    }
+
+    .User h5 {
+        top: 230px;
+        left: 0px;
+
+        width: 470px;
+        height: 130px;
+
+        position: absolute;
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+    }
+
+    .User h4 {
+        top: 365px;
+        left: 0px;
+
+        width: 310px;
+        height: 20px;
+
+        position: absolute;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 99.7%;
+        /* 15.952px */
+    }
+
+    .User button {
+        display: inline-flex;
+        padding: 7.843px 13.333px;
+        justify-content: center;
+        align-items: center;
+        gap: 7.843px;
+
+        position: absolute;
+        width: 125px;
+        height: 40px;
+        top: 390px;
+        left: 0px;
+
+        font-size: 16.471px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        /* 16.471px */
+    }
+
+    .Star1 {
+        width: 88.48px;
+        height: 89.49px;
+        flex-shrink: 0;
+        transform: rotate(15deg);
+
+        position: absolute;
+
+        Top: 74px;
+        right: 650px;
+
+        z-index: 9;
+    }
+
+    .MulherImg img {
+        width: 691px;
+        height: 512px;
+        flex-shrink: 0;
+
+        position: absolute;
+
+        top: 0px;
+        right: 0px;
+    }
+
+    .AppWork {
+        width: 100%;
+        height: 512px;
+        flex-shrink: 0;
+
+        position: absolute;
+
+        top: 512px;
+    }
+
+    .Work {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+
+        width: 475px;
+        height: 410px;
+        top: 45px;
+        right: 100px;
+
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        text-align: right;
+    }
+
+    .Work h1 {
+        top: 0px;
+        right: 0px;
+
+        width: 465px;
+        height: 185px;
+
+        position: absolute;
+
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 45.2px;
+        letter-spacing: 0em;
+    }
+
+    .Work h5 {
+        top: 190px;
+        right: 0px;
+
+        width: 470px;
+        height: 145px;
+
+        position: absolute;
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+    }
+
+    .Work h4 {
+        top: 340px;
+        right: 0px;
+
+        width: 310px;
+        height: 20px;
+
+        position: absolute;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 99.7%;
+        /* 15.952px */
+    }
+
+    .Work button {
+        display: inline-flex;
+        padding: 7.843px 13.333px;
+        justify-content: center;
+        align-items: center;
+        gap: 7.843px;
+
+        position: absolute;
+        width: 125px;
+        height: 40px;
+        top: 365px;
+        right: 0px;
+
+        font-size: 16.471px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        /* 16.471px */
+    }
+
+    .Star2 {
+        width: 88.48px;
+        height: 89.49px;
+        flex-shrink: 0;
+
+        position: absolute;
+
+        Top: 175px;
+        left: 650px;
+
+        z-index: 9;
+    }
+
+    .HomemImg img {
+        width: 691px;
+        height: 512px;
+        flex-shrink: 0;
+
+        position: absolute;
+
+        top: 0px;
+        left: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .Premium {
+        height: 1333px;
+
+        position: relative;
+    }
+
+    .Aproveite {
+        width: 1000px;
+        height: 220px;
+        top: 125px;
+        left: 180px;
+        gap: 8px;
+
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .Aproveite h1 {
+        position: absolute;
+        width: 1000px;
+        height: 140px;
+        left: 0px;
+        top: 0px;
+
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        /* 83.254px */
+    }
+
+    .Aproveite h5 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 99.7%;
+
+        position: absolute;
+        width: 895px;
+        height: 75px;
+        left: 55px;
+        top: 140px;
+    }
+
+    .PremiumImg {
+        display: block;
+        position: absolute;
+        top: 485px;
+        left: 280px;
+    }
+
+    .PremiumImg img {
+        width: 306.31px;
+        height: 576.88px;
+    }
+
+    .quadrado2 {
+        width: 256px;
+        height: 21px;
+        top: 785px;
+        left: 50px;
+        flex-shrink: 0;
+
+        position: absolute;
+
+        z-index: 9;
+    }
+
+    .Pacotes {
+        width: 590px;
+        height: 500px;
+        top: 525px;
+        right: 100px;
+        gap: 8px;
+
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        text-align: right;
+    }
+
+    .Bronze {
+        top: 0px;
+        right: 0px;
+        width: 580px;
+        height: 135px;
+
+        position: absolute;
+    }
+
+    .Bronze h1 {
+        width: 570px;
+        height: 70px;
+        top: 60px;
+        right: 0;
+        position: absolute;
+
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        /* 30px */
+    }
+
+    .Bronze img {
+        width: 72px;
+        height: 57px;
+
+        text-align: left;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .Prata {
+        top: 145px;
+        right: 0px;
+        width: 580px;
+        height: 170px;
+
+        position: absolute;
+    }
+
+    .Prata h1 {
+        width: 570px;
+        height: 105px;
+        top: 60px;
+        right: 0;
+        position: absolute;
+
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        /* 30px */
+    }
+
+    .Prata img {
+        width: 72px;
+        height: 57px;
+
+        text-align: left;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .Diamante {
+        top: 325px;
+        right: 0px;
+        width: 580px;
+        height: 170px;
+
+        position: absolute;
+    }
+
+    .Diamante h1 {
+        width: 570px;
+        height: 105px;
+        top: 60px;
+        right: 0;
+        position: absolute;
+
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        /* 30px */
+    }
+
+    .Diamante img {
+        width: 72px;
+        height: 57px;
+
+        text-align: left;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .Escolha {
+        width: 805px;
+        height: 80px;
+        top: 1180px;
+        left: 255px;
+        gap: 8px;
+
+    }
+
+    .Escolha h3 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 99.7%;
+
+        position: absolute;
+        width: 795px;
+        height: 70px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .Saiba {
+        height: 706px;
+        position: relative;
+
+    }
+
+    .Sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        gap: 147.897px;
+
+        position: absolute;
+
+        width: 488.1px;
+        height: 475px;
+        top: 130px;
+        left: 100px;
+        gap: 7.4px;
+    }
+
+    .Sobre h1 {
+        top: 0px;
+        left: 0px;
+
+        position: absolute;
+
+        width: 480px;
+        height: 165px;
+
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52.707px;
+        /* 98.276% */
+    }
+
+    .Sobre h4 {
+        top: 160px;
+        left: 0px;
+
+        width: 450px;
+        height: 50px;
+
+        position: absolute;
+
+        color: #CACACA;
+        font-family: "Poppins";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+        /* 29.91px */
+    }
+
+    .Sobre h5 {
+        top: 205px;
+        left: 0px;
+
+        width: 450px;
+        height: 180px;
+
+        position: absolute;
+
+        color: #CACACA;
+        font-family: "Poppins";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+        /* 29.91px */
+    }
+
+    .Sobre h3 {
+        top: 379px;
+        left: 0px;
+
+        width: 450px;
+        height: 93px;
+
+        position: absolute;
+
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+        /* 29.91px */
+    }
+
+    .Grupo {
+        width: 577.04px;
+        height: 394px;
+        top: 169px;
+        right: 50px;
+
+        flex-shrink: 0;
+
+        position: absolute;
+    }
+
+    .Grupo img {
+        width: 573.16px;
+        height: 390.12px;
+        top: 1px;
+        left: 1px;
+
+        position: absolute;
+
+        z-index: 9;
+
+    }
+
+    .quadrado3 {
+        width: 146.39px;
+        height: 12.6px;
+        top: 185px;
+        left: -60px;
+        flex-shrink: 0;
+
+        position: absolute;
+
+        z-index: 9;
+    }
+
+    .fundo {
+        width: 310.24px;
+        height: 228.8px;
+        top: 1px;
+        right: 0px;
+
+        position: absolute;
+
+        border-radius: 34.9px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+    .Porque {
+        height: 655px;
+        position: relative;
+    }
+
+    .quadrado4 {
+        width: 188.75px;
+        height: 16.25px;
+        top: 90px;
+        left: 100px;
+        flex-shrink: 0;
+
+        position: absolute;
+
+        z-index: 9;
+    }
+
+
+    .OPorque {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        gap: 147.897px;
+
+        position: absolute;
+
+        width: 460px;
+        height: 410px;
+        top: 130px;
+        left: 100px;
+        gap: 7.4px;
+    }
+
+    .OPorque h1 {
+        top: 0px;
+        left: 0px;
+
+        position: absolute;
+
+        width: 390px;
+        height: 165px;
+
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52.707px;
+        /* 98.276% */
+    }
+
+    .OPorque h4 {
+        top: 160px;
+        left: 0px;
+
+        width: 450px;
+        height: 135px;
+
+        position: absolute;
+
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+        /* 29.91px */
+    }
+
+    .OPorque h5 {
+        top: 290px;
+        left: 0px;
+
+        width: 450px;
+        height: 115px;
+
+        position: absolute;
+
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+        /* 29.91px */
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+    
+.Redes {
+    height: 806px;
+    position: relative;
+}
+
+.ExploreRede {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 147.897px;
+
+    position: absolute;
+
+    width: 500px;
+    height: 285px;
+    top: 250px;
+    left: 100px;
+    gap: 7.4px;
+}
+
+.ExploreRede h1 {
+    top: 0px;
+    left: 0px;
+
+    position: absolute;
+
+    width: 495px;
+    height: 250px;
+
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    /* 98.276% */
+}
+
+.ExploreRede h2 {
+    top: 250px;
+    left: 0px;
+
+    width: 375px;
+    height: 30px;
+
+    position: absolute;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 99.7%;
+
+    text-align: left;
+    /* 29.91px */
+}
+
+.Redes img {
+    width: 490.19px;
+    height: 500px;
+    top: 141px;
+    right: 10px;
+
+    position: absolute;
+
+}
+
+.quadrado5 {
+    width: 200px;
+    height: 18px;
+    top: 380px;
+    left: 650px;
+    flex-shrink: 0;
+
+    position: absolute;
+
+    z-index: 9;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+    
+.Membros {
+    height: 1012px;
+
+    position: relative;
+}
+
+.Quem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 147.897px;
+
+    position: absolute;
+
+    width: 495px;
+    height: 83px;
+    top: 80px;
+    left: 405px;
+    gap: 7.4px;
+}
+
+.Quem h1 {
+    top: 0px;
+    left: 0px;
+
+    position: absolute;
+
+    width: 490px;
+    height: 80px;
+
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 98.276% */
+}
+
+.QuemSao {
+    width: 1165px;
+    height: 540px;
+    top: 329px;
+    left: 80px;
+    gap: 78px;
+
+    position: absolute;
+}
+
+.Camily {
+    top: 0px;
+    left: 0px;
+
+    width: 522px;
+    height: 254px;
+    gap: 4px;
+
+    position: absolute;
+
+    text-align: left;
+}
+
+.Camily h1 {
+    top: 60px;
+    left: 0px;
+
+    position: absolute;
+
+    width: 516px;
+    height: 70px;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    /* 98.276% */
+}
+
+.Camily h4 {
+    top: 130px;
+    left: 0px;
+
+    width: 465px;
+    height: 115px;
+
+    position: absolute;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 99.7%;
+
+    text-align: left;
+    /* 29.91px */
+}
+
+.Camily img {
+    width: 72px;
+    height: 57px;
+
+    top: 0px;
+    left: 0px;
+
+    position: absolute;
+}
+
+.Emerson {
+    top: 0px;
+    right: 0px;
+
+    width: 522px;
+    height: 254px;
+    gap: 4px;
+
+    position: absolute;
+
+    text-align: right;
+}
+
+.Emerson h1 {
+    top: 60px;
+    right: 0px;
+
+    position: absolute;
+
+    width: 516px;
+    height: 70px;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+  
+}
+
+.Emerson h4 {
+    top: 130px;
+    right: 0px;
+
+    width: 516px;
+    height: 115px;
+
+    position: absolute;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 99.7%;
+
+    /* 29.91px */
+}
+
+.Emerson img {
+    width: 72px;
+    height: 57px;
+
+    top: 0px;
+    left: 0px;
+
+    position: absolute;
+}
+
+.Joao {
+    bottom: 0px;
+    left: 0px;
+
+    width: 522px;
+    height: 215px;
+    gap: 4px;
+
+    position: absolute;
+
+    text-align: left;
+}
+
+.Joao h1 {
+    top: 60px;
+    left: 0px;
+
+    position: absolute;
+
+    width: 516px;
+    height: 70px;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    /* 98.276% */
+}
+
+.Joao h4 {
+    top: 130px;
+    left: 0px;
+
+    width: 465px;
+    height: 78px;
+
+    position: absolute;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 99.7%;
+
+    text-align: left;
+    /* 29.91px */
+}
+
+.Joao img {
+    width: 72px;
+    height: 57px;
+
+    top: 0px;
+    left: 0px;
+
+    position: absolute;
+}
+
+.Jose {
+    bottom: 0px;
+    right: 0px;
+
+    width: 522px;
+    height: 240px;
+    gap: 4px;
+
+    position: absolute;
+
+    text-align: right;
+}
+
+.Jose h1 {
+    top: 60px;
+    right: 0px;
+
+    position: absolute;
+
+    width: 516px;
+    height: 70px;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+  
+}
+
+.Jose h4 {
+    top: 130px;
+    right: 0px;
+
+    width: 516px;
+    height: 105px;
+
+    position: absolute;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 99.7%;
+
+    /* 29.91px */
+}
+
+.Jose img {
+    width: 72px;
+    height: 57px;
+
+    top: 25px;
+    left: 6px;
+
+    position: absolute;
+}
 }
