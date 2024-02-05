@@ -167,8 +167,94 @@
   text-align: right;
 }
 
+/*RESPONSIVIDADE CELULAR*/
 
-/*RESPONSIVIDADE*/
+@media (max-width: 768px) {
+  .Footer {
+    height: 950px;
+  }
+
+  .Logo {
+    top: 80px;
+    left: 100px;
+  }
+
+  .Informacoes {
+    width: 200px;
+    left: 104px;
+    top: 200px;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    gap: 40px;
+  }
+
+  .Informacoes li {
+    font-size: 16px;
+  }
+
+  .Contatos {
+    height: 50px;
+    width: 190px;
+
+    top: 490px;
+    left: 109px;
+  }
+
+  .Contatos h6 {
+    height: 15px;
+    width: 190px;
+
+    left: 0px;
+
+    font-size: 14px;
+  }
+
+  .Contatos a {
+    position: relative;
+    left: 55px;
+    top: 25px;
+    margin-right: 1em;
+  }
+
+  .Rodape {
+    height: 310px;
+  }
+
+  .Service {
+    left: 190px;
+    top: 40px;
+  }
+
+  .Email {
+    width: 220px;
+    height: 40px;
+    top: 150px;
+    left: 103px;
+  }
+
+  .Email li {
+    font-size: 14px;
+  }
+
+  .Direitos {
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 105px;
+    top: 250px;
+
+  }
+
+  .Direitos li {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+/*RESPONSIVIDADE NOTEBOOK*/
 
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
   .Footer {
@@ -217,23 +303,23 @@
   .Rodape {
     height: 80px;
   }
-  
+
   .Service {
     left: 100px;
     top: 20px;
   }
-  
+
   .Email {
     width: 220px;
     height: 40px;
     top: 20px;
     left: 250px;
   }
-  
+
   .Email li {
     font-size: 14px;
   }
-  
+
   .Direitos {
     position: absolute;
     width: 310px;
@@ -241,7 +327,7 @@
     right: 100px;
     top: 32px;
   }
-  
+
   .Direitos li {
     font-size: 14px;
   }

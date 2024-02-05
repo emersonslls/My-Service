@@ -1368,6 +1368,912 @@
 
 /*RESPONSIVIDADE CELULAR*/
 
+@media (max-width: 768px) {
+    .Inicio {
+        height: 1315px;
+    }
+
+    .Text1 {
+        width: 316px;
+        height: 380px;
+        top: 240px;
+        left: 50px;
+    }
+
+    .Text1 h1 {
+        width: 310px;
+        height: 260px;
+
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .Text1 h4 {
+        top: 268px;
+        left: 0px;
+
+        width: 310px;
+        height: 105px;
+
+        font-size: 22px;
+        line-height: 99.7%;
+    }
+
+    .Conheca {
+        width: 316px;
+        height: 465px;
+        top: 750px;
+        left: 50px;
+    }
+
+    .Conheca h1 {
+        width: 310px;
+        height: 260px;
+
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .Conheca h4 {
+        top: 268px;
+        left: 0px;
+
+        width: 310px;
+        height: 150px;
+
+        font-size: 22px;
+        line-height: 99.7%;
+    }
+
+    .Conheca button {
+        width: 114.37px;
+        height: 40.37px;
+        top: 418px;
+        left: 0px;
+
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Apps {
+        height: 1750px;
+    }
+
+    .quadrado1 {
+        width: 200px;
+        height: 20px;
+        top: 855px;
+        left: 100px;
+
+        position: absolute;
+
+        z-index: 99;
+    }
+
+    .AppUser {
+        height: 865px;
+    }
+
+    .User {
+        width: 316px;
+        height: 495px;
+        top: 35px;
+        left: 50px;
+
+        z-index: 999;
+    }
+
+    .User h1 {
+        top: 0px;
+        left: 0px;
+
+        width: 310px;
+        height: 265px;
+
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 45.2px;
+        letter-spacing: 0em;
+    }
+
+    .User h5 {
+        top: 270px;
+        left: 0px;
+
+        width: 310px;
+        height: 155px;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+    }
+
+    .User h4 {
+        top: 430px;
+        left: 0px;
+
+        width: 265px;
+        height: 15px;
+
+        font-size: 14px;
+    }
+
+    .User button {
+        width: 114.37px;
+        height: 40.37px;
+        top: 448px;
+        left: 0px;
+
+        font-size: 15px;
+    }
+
+    .Star1 {
+        width: 88.48px;
+        height: 89.49px;
+        flex-shrink: 0;
+        transform: rotate(15deg);
+
+        position: absolute;
+
+        Top: 525px;
+        right: 50px;
+
+        z-index: 9;
+    }
+
+    .MulherImg img {
+        width: 100%;
+        height: auto;
+        top: 565px;
+        right: 0px;
+
+        position: relative;
+    }
+
+    .AppWork {
+        height: 885px;
+        top: 865px;
+    }
+
+    .Work {
+        width: 316px;
+        height: 510px;
+        top: 35px;
+        right: 50px;
+
+        z-index: 999;
+    }
+
+    .Work h1 {
+        top: 0px;
+        right: 0px;
+
+        width: 310px;
+        height: 265px;
+
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 45.2px;
+        letter-spacing: 0em;
+    }
+
+    .Work h5 {
+        top: 270px;
+        right: 0px;
+
+        width: 310px;
+        height: 175px;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+    }
+
+    .Work h4 {
+        top: 447px;
+        right: 0px;
+
+        width: 265px;
+        height: 15px;
+
+        font-size: 14px;
+    }
+
+    .Work button {
+        width: 114.37px;
+        height: 40.37px;
+        top: 465px;
+        right: 0px;
+
+        font-size: 15px;
+    }
+
+    .Star2 {
+        width: 88.48px;
+        height: 89.49px;
+        flex-shrink: 0;
+        transform: rotate(15deg);
+
+        position: absolute;
+
+        Top: 540px;
+        left: 50px;
+
+        z-index: 9;
+    }
+
+    .HomemImg img {
+        width: 100%;
+        height: auto;
+        top: 585px;
+        right: 0px;
+
+        position: relative;
+    }
+}
+
+@media (max-width: 768px) {
+    .Premium {
+        height: 2220px;
+
+        position: relative;
+    }
+
+    .Aproveite {
+        width: 316px;
+        height: 465px;
+        top: 125px;
+        left: 50px;
+        gap: 8px;
+    }
+
+    .Aproveite h1 {
+        position: absolute;
+        width: 310px;
+        height: 290px;
+        left: 0px;
+        top: 0px;
+
+        font-size: 38px;
+        line-height: 42px;
+        /* 83.254px */
+    }
+
+    .Aproveite h5 {
+        font-size: 22px;
+        line-height: 99.7%;
+
+        position: absolute;
+        width: 310px;
+        height: 170px;
+        left: 3px;
+        top: 290px;
+    }
+
+    .PremiumImg {
+        display: block;
+        position: absolute;
+        top: 645px;
+        left: 100px;
+    }
+
+    .PremiumImg img {
+        width: auto;
+        height: 405.88px;
+    }
+
+    .quadrado2 {
+        width: 200px;
+        height: 18px;
+        top: 1150px;
+        left: 108px;
+
+        transform: rotate(0deg);
+    }
+
+    .Pacotes {
+        width: 395px;
+        height: 525px;
+        top: 1305px;
+        left: 15px;
+        gap: 8px;
+
+        text-align: left;
+    }
+
+    .Bronze {
+        top: 0px;
+        left: 0px;
+        width: 390px;
+        height: 130px;
+
+        position: absolute;
+    }
+
+    .Bronze h1 {
+        width: 380px;
+        height: 70px;
+        top: 55px;
+        left: 0;
+        position: absolute;
+
+        font-size: 18px;
+
+        text-align: left;
+        /* 30px */
+    }
+
+    .Bronze img {
+        width: 68px;
+        height: 52px;
+
+        text-align: left;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .Prata {
+        top: 145px;
+        left: 0px;
+        width: 390px;
+        height: 170px;
+
+        position: absolute;
+    }
+
+    .Prata h1 {
+        width: 380px;
+        height: 110px;
+        top: 55px;
+        left: 0;
+        position: absolute;
+
+        font-size: 18px;
+
+        text-align: left;
+        /* 30px */
+    }
+
+    .Prata img {
+        width: 68px;
+        height: 52px;
+
+        text-align: left;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .Diamante {
+        top: 330px;
+        left: 0px;
+        width: 390px;
+        height: 190px;
+
+        position: absolute;
+    }
+
+    .Diamante h1 {
+        width: 380px;
+        height: 130px;
+        top: 55px;
+        left: 0;
+        position: absolute;
+
+        font-size: 18px;
+
+        text-align: left;
+        /* 30px */
+    }
+
+    .Diamante img {
+        width: 68px;
+        height: 52px;
+
+        text-align: left;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .Escolha {
+        width: 316px;
+        height: 165px;
+        top: 1925px;
+        left: 50px;
+        gap: 8px;
+    }
+
+    .Escolha h3 {
+        font-size: 22px;
+        line-height: 99.7%;
+
+        position: absolute;
+        width: 310px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .Saiba {
+        height: 1015px;
+    }
+
+    .Sobre {
+        position: absolute;
+
+        width: 316px;
+        height: 455px;
+        top: 450px;
+        left: 50px;
+    }
+
+    .Sobre h1 {
+        top: 0px;
+        left: 0px;
+
+        width: 310px;
+        height: 235px;
+
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 45.2px;
+        letter-spacing: 0em;
+    }
+
+    .Sobre h4 {
+        top: 230px;
+        left: 0px;
+
+        width: 310px;
+        height: 35px;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+    }
+
+    .Sobre h5 {
+        top: 263px;
+        left: 0px;
+
+        width: 310px;
+        height: 125px;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+    }
+
+    .Sobre h3 {
+        top: 383px;
+        left: 0px;
+
+        width: 310px;
+        height: 65px;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+    }
+
+    .Grupo {
+        width: 374px;
+        height: 255px;
+        top: 100px;
+        left: 18px;
+
+        flex-shrink: 0;
+
+        position: absolute;
+    }
+
+    .Grupo img {
+        width: auto;
+        height: 250px;
+        top: 2.5px;
+        left: 1px;
+
+        position: absolute;
+
+        z-index: 9;
+
+    }
+
+    .quadrado3 {
+        width: 142.39px;
+        height: 10px;
+        top: 125.5px;
+        left: -62px;
+        flex-shrink: 0;
+
+        position: absolute;
+
+        z-index: 9;
+    }
+
+    .fundo {
+        width: 200px;
+        height: 150px;
+        top: 1px;
+        right: 1px;
+
+        border-radius: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .Porque {
+        height: 560px;
+    }
+
+    .quadrado4 {
+        width: 188.75px;
+        width: 200px;
+        height: 18px;
+        top: 90px;
+        left: 50px;
+
+        z-index: 9;
+    }
+
+    .OPorque {
+        width: 316px;
+        height: 320px;
+        top: 130px;
+        left: 50px;
+        gap: 7.4px;
+
+    }
+
+    .OPorque h1 {
+        top: 0px;
+        left: 0px;
+
+        width: 310px;
+        height: 130px;
+
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 45.2px;
+        letter-spacing: 0em;
+    }
+
+    .OPorque h4 {
+        top: 130px;
+        left: 0px;
+
+        width: 310px;
+        height: 95px;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+    }
+
+    .OPorque h5 {
+        top: 221px;
+        left: 0px;
+
+        width: 310px;
+        height: 95px;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 99.7%;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    
+    .Redes {
+        height: 1010px;
+    }
+
+    .ExploreRede {
+        width: 316px;
+        height: 240px;
+        top: 100px;
+        left: 50px;
+        gap: 7.4px;
+    }
+
+    .ExploreRede h1 {
+        top: 0px;
+        left: 0px;
+
+        width: 310px;
+        height: 220px;
+
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 45.2px;
+        letter-spacing: 0em;
+    }
+
+    .ExploreRede h2 {
+        top: 220px;
+        left: 0px;
+
+        width: 220px;
+        height: 15px;
+
+        font-size: 14px;
+    }
+
+    .Redes img {
+        top: 530px;
+        left: 40px;
+    
+        width: auto;
+        height: 360px;
+    }
+
+    .quadrado5 {
+        width: 200px;
+        height: 18px;
+        top: 420px;
+        left: 108px;
+
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .Membros {
+        height: 1300px;
+
+        position: relative;
+    }
+
+    .Quem {
+        width: 290px;
+        height: 50px;
+        top: 100px;
+        left: 70px;
+        gap: 7.4px;
+    }
+
+    .Quem h1 {
+        top: 0px;
+        left: 0px;
+
+        width: 285px;
+        height: 45px;
+
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 45.2px;
+        letter-spacing: 0em;
+    }
+
+    .QuemSao {
+        width: 400px;
+        height: 860px;
+        top: 315px;
+        left: 10px;
+
+        position: absolute;
+    }
+
+    .Camily {
+        top: 0px;
+        left: 0px;
+        width: 390px;
+        height: 195px;
+
+        position: absolute;
+    }
+
+    .Camily h1 {
+        top: 57px;
+        left: 0px;
+
+        position: absolute;
+
+        width: 380px;
+        height: 65px;
+
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 80px;
+        /* 98.276% */
+    }
+
+    .Camily h4 {
+        width: 380px;
+        height: 70px;
+        top: 120px;
+        left: 0;
+        position: absolute;
+
+        font-size: 18px;
+
+        text-align: left;
+        /* 30px */
+    }
+
+    .Camily img {
+        width: 68px;
+        height: 52px;
+
+        text-align: left;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .Emerson {
+        top: 220px;
+        left: 0px;
+        width: 390px;
+        height: 210px;
+
+        position: absolute;
+
+        text-align: left;
+    }
+
+    .Emerson h1 {
+        top: 57px;
+        left: 0px;
+
+        position: absolute;
+
+        width: 380px;
+        height: 65px;
+
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 80px;
+        /* 98.276% */
+
+        text-align: left;
+    }
+
+    .Emerson h4 {
+        width: 380px;
+        height: 85px;
+        top: 120px;
+        left: 0;
+        position: absolute;
+
+        font-size: 18px;
+
+        text-align: left;
+        /* 30px */
+    }
+
+    .Emerson img {
+        width: 68px;
+        height: 52px;
+
+        text-align: left;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .Joao {
+        top: 450px;
+        left: 0px;
+        width: 390px;
+        height: 180px;
+
+        position: absolute;
+
+        text-align: left;
+    }
+
+    .Joao h1 {
+        top: 57px;
+        left: 0px;
+
+        position: absolute;
+
+        width: 380px;
+        height: 65px;
+
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 80px;
+        /* 98.276% */
+
+        text-align: left;
+    }
+
+    .Joao h4 {
+        width: 380px;
+        height: 55px;
+        top: 120px;
+        left: 0;
+        position: absolute;
+
+        font-size: 18px;
+
+        text-align: left;
+        /* 30px */
+    }
+
+    .Joao img {
+        width: 68px;
+        height: 52px;
+
+        text-align: left;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .Jose {
+        top: 650px;
+        left: 0px;
+        width: 390px;
+        height: 200px;
+
+        position: absolute;
+
+        text-align: left;
+    }
+
+    .Jose h1 {
+        top: 57px;
+        left: 0px;
+
+        position: absolute;
+
+        width: 380px;
+        height: 65px;
+
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 80px;
+        /* 98.276% */
+
+        text-align: left;
+    }
+
+    .Jose h4 {
+        width: 380px;
+        height: 75px;
+        top: 120px;
+        left: 0;
+        position: absolute;
+
+        font-size: 18px;
+
+        text-align: left;
+        /* 30px */
+    }
+
+    .Jose img {
+        width: 68px;
+        height: 52px;
+
+        text-align: left;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+}
 
 /*RESPONSIVIDADE NOTEBOOK*/
 
@@ -2186,358 +3092,358 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
-    
-.Redes {
-    height: 806px;
-    position: relative;
-}
 
-.ExploreRede {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    .Redes {
+        height: 806px;
+        position: relative;
+    }
 
-    gap: 147.897px;
+    .ExploreRede {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
 
-    position: absolute;
+        gap: 147.897px;
 
-    width: 500px;
-    height: 285px;
-    top: 250px;
-    left: 100px;
-    gap: 7.4px;
-}
+        position: absolute;
 
-.ExploreRede h1 {
-    top: 0px;
-    left: 0px;
+        width: 500px;
+        height: 285px;
+        top: 250px;
+        left: 100px;
+        gap: 7.4px;
+    }
 
-    position: absolute;
+    .ExploreRede h1 {
+        top: 0px;
+        left: 0px;
 
-    width: 495px;
-    height: 250px;
+        position: absolute;
 
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 50px;
-    /* 98.276% */
-}
+        width: 495px;
+        height: 250px;
 
-.ExploreRede h2 {
-    top: 250px;
-    left: 0px;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        /* 98.276% */
+    }
 
-    width: 375px;
-    height: 30px;
+    .ExploreRede h2 {
+        top: 250px;
+        left: 0px;
 
-    position: absolute;
+        width: 375px;
+        height: 30px;
 
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 99.7%;
+        position: absolute;
 
-    text-align: left;
-    /* 29.91px */
-}
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 99.7%;
 
-.Redes img {
-    width: 490.19px;
-    height: 500px;
-    top: 141px;
-    right: 10px;
+        text-align: left;
+        /* 29.91px */
+    }
 
-    position: absolute;
+    .Redes img {
+        width: 490.19px;
+        height: 500px;
+        top: 141px;
+        right: 10px;
 
-}
+        position: absolute;
 
-.quadrado5 {
-    width: 200px;
-    height: 18px;
-    top: 380px;
-    left: 650px;
-    flex-shrink: 0;
+    }
 
-    position: absolute;
+    .quadrado5 {
+        width: 200px;
+        height: 18px;
+        top: 380px;
+        left: 650px;
+        flex-shrink: 0;
 
-    z-index: 9;
-}
+        position: absolute;
+
+        z-index: 9;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
-    
-.Membros {
-    height: 1012px;
 
-    position: relative;
-}
+    .Membros {
+        height: 1012px;
 
-.Quem {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+        position: relative;
+    }
 
-    gap: 147.897px;
+    .Quem {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
 
-    position: absolute;
+        gap: 147.897px;
 
-    width: 495px;
-    height: 83px;
-    top: 80px;
-    left: 405px;
-    gap: 7.4px;
-}
+        position: absolute;
 
-.Quem h1 {
-    top: 0px;
-    left: 0px;
+        width: 495px;
+        height: 83px;
+        top: 80px;
+        left: 405px;
+        gap: 7.4px;
+    }
 
-    position: absolute;
+    .Quem h1 {
+        top: 0px;
+        left: 0px;
 
-    width: 490px;
-    height: 80px;
+        position: absolute;
 
-    font-size: 65px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 80px;
-    /* 98.276% */
-}
+        width: 490px;
+        height: 80px;
 
-.QuemSao {
-    width: 1165px;
-    height: 540px;
-    top: 329px;
-    left: 80px;
-    gap: 78px;
+        font-size: 65px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80px;
+        /* 98.276% */
+    }
 
-    position: absolute;
-}
+    .QuemSao {
+        width: 1165px;
+        height: 540px;
+        top: 329px;
+        left: 85px;
+        gap: 78px;
 
-.Camily {
-    top: 0px;
-    left: 0px;
+        position: absolute;
+    }
 
-    width: 522px;
-    height: 254px;
-    gap: 4px;
+    .Camily {
+        top: 0px;
+        left: 0px;
 
-    position: absolute;
+        width: 522px;
+        height: 254px;
+        gap: 4px;
 
-    text-align: left;
-}
+        position: absolute;
 
-.Camily h1 {
-    top: 60px;
-    left: 0px;
+        text-align: left;
+    }
 
-    position: absolute;
+    .Camily h1 {
+        top: 60px;
+        left: 0px;
 
-    width: 516px;
-    height: 70px;
+        position: absolute;
 
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 80px;
-    /* 98.276% */
-}
+        width: 516px;
+        height: 70px;
 
-.Camily h4 {
-    top: 130px;
-    left: 0px;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 80px;
+        /* 98.276% */
+    }
 
-    width: 465px;
-    height: 115px;
+    .Camily h4 {
+        top: 130px;
+        left: 0px;
 
-    position: absolute;
+        width: 465px;
+        height: 115px;
 
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 99.7%;
+        position: absolute;
 
-    text-align: left;
-    /* 29.91px */
-}
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 99.7%;
 
-.Camily img {
-    width: 72px;
-    height: 57px;
+        text-align: left;
+        /* 29.91px */
+    }
 
-    top: 0px;
-    left: 0px;
+    .Camily img {
+        width: 72px;
+        height: 57px;
 
-    position: absolute;
-}
+        top: 0px;
+        left: 0px;
 
-.Emerson {
-    top: 0px;
-    right: 0px;
+        position: absolute;
+    }
 
-    width: 522px;
-    height: 254px;
-    gap: 4px;
+    .Emerson {
+        top: 0px;
+        right: 0px;
 
-    position: absolute;
+        width: 522px;
+        height: 254px;
+        gap: 4px;
 
-    text-align: right;
-}
+        position: absolute;
 
-.Emerson h1 {
-    top: 60px;
-    right: 0px;
+        text-align: right;
+    }
 
-    position: absolute;
+    .Emerson h1 {
+        top: 60px;
+        right: 0px;
 
-    width: 516px;
-    height: 70px;
+        position: absolute;
 
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 80px;
-  
-}
+        width: 516px;
+        height: 70px;
 
-.Emerson h4 {
-    top: 130px;
-    right: 0px;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 80px;
 
-    width: 516px;
-    height: 115px;
+    }
 
-    position: absolute;
+    .Emerson h4 {
+        top: 130px;
+        right: 0px;
 
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 99.7%;
+        width: 516px;
+        height: 115px;
 
-    /* 29.91px */
-}
+        position: absolute;
 
-.Emerson img {
-    width: 72px;
-    height: 57px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 99.7%;
 
-    top: 0px;
-    left: 0px;
+        /* 29.91px */
+    }
 
-    position: absolute;
-}
+    .Emerson img {
+        width: 72px;
+        height: 57px;
 
-.Joao {
-    bottom: 0px;
-    left: 0px;
+        top: 0px;
+        left: 0px;
 
-    width: 522px;
-    height: 215px;
-    gap: 4px;
+        position: absolute;
+    }
 
-    position: absolute;
+    .Joao {
+        bottom: 0px;
+        left: 0px;
 
-    text-align: left;
-}
+        width: 522px;
+        height: 215px;
+        gap: 4px;
 
-.Joao h1 {
-    top: 60px;
-    left: 0px;
+        position: absolute;
 
-    position: absolute;
+        text-align: left;
+    }
 
-    width: 516px;
-    height: 70px;
+    .Joao h1 {
+        top: 60px;
+        left: 0px;
 
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 80px;
-    /* 98.276% */
-}
+        position: absolute;
 
-.Joao h4 {
-    top: 130px;
-    left: 0px;
+        width: 516px;
+        height: 70px;
 
-    width: 465px;
-    height: 78px;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 80px;
+        /* 98.276% */
+    }
 
-    position: absolute;
+    .Joao h4 {
+        top: 130px;
+        left: 0px;
 
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 99.7%;
+        width: 465px;
+        height: 78px;
 
-    text-align: left;
-    /* 29.91px */
-}
+        position: absolute;
 
-.Joao img {
-    width: 72px;
-    height: 57px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 99.7%;
 
-    top: 0px;
-    left: 0px;
+        text-align: left;
+        /* 29.91px */
+    }
 
-    position: absolute;
-}
+    .Joao img {
+        width: 72px;
+        height: 57px;
 
-.Jose {
-    bottom: 0px;
-    right: 0px;
+        top: 0px;
+        left: 0px;
 
-    width: 522px;
-    height: 240px;
-    gap: 4px;
+        position: absolute;
+    }
 
-    position: absolute;
+    .Jose {
+        bottom: 0px;
+        right: 0px;
 
-    text-align: right;
-}
+        width: 522px;
+        height: 240px;
+        gap: 4px;
 
-.Jose h1 {
-    top: 60px;
-    right: 0px;
+        position: absolute;
 
-    position: absolute;
+        text-align: right;
+    }
 
-    width: 516px;
-    height: 70px;
+    .Jose h1 {
+        top: 60px;
+        right: 0px;
 
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 80px;
-  
-}
+        position: absolute;
 
-.Jose h4 {
-    top: 130px;
-    right: 0px;
+        width: 516px;
+        height: 70px;
 
-    width: 516px;
-    height: 105px;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 80px;
 
-    position: absolute;
+    }
 
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 99.7%;
+    .Jose h4 {
+        top: 130px;
+        right: 0px;
 
-    /* 29.91px */
-}
+        width: 516px;
+        height: 105px;
 
-.Jose img {
-    width: 72px;
-    height: 57px;
+        position: absolute;
 
-    top: 25px;
-    left: 6px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 99.7%;
 
-    position: absolute;
-}
+        /* 29.91px */
+    }
+
+    .Jose img {
+        width: 72px;
+        height: 57px;
+
+        top: 25px;
+        left: 6px;
+
+        position: absolute;
+    }
 }
