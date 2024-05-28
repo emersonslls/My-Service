@@ -258,15 +258,13 @@ function Home() {
                         <img src={Aspas} />
                         <h1>José Vinícius:</h1>
                         <h4>
-                        José foi sublíder, atuou como front-end nos aplicativos  
-                            <span className={styles.Black}>
-                              é contribuiu para o desenvolvimento da API e do Banco de Dados em nossos projetos.
-                            </span>
+                            José foi sublíder, atuou como front-end nos aplicativos <span className={styles.Black}> e contribuiu para o desenvolvimento da API e do Banco de Dados em nossos projetos.</span>
+                            
                         </h4>
                     </div>
                 </div>
             </div>
-<Footer/>
+            <Footer />
         </div >
     );
 }
